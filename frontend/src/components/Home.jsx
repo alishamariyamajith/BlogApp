@@ -76,12 +76,9 @@ const handleUpdate = (id) => {
                 />
                 <CardContent>
                   <Typography variant="subtitle2" color="text.secondary">
-                    {blog.category || "Blog"}
-                  </Typography>
-                  <Typography variant="h6" gutterBottom>
                     {blog.title}
                   </Typography>
-                  <Typography variant="body2" color="text.secondary">
+                  <Typography variant="h6" color="text">
                     {blog.content}
                   </Typography>
                   <Stack direction="row" spacing={2} mt={2}>
